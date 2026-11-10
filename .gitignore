@@ -1,0 +1,24 @@
+# secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+node_modules/
+.next/
+
+# playwright / local artifacts
+playwright-report/
+test-results/
+screenshots_local/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
